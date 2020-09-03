@@ -37,6 +37,16 @@ Who would like a delay of 2-3 seconds while locking screen?
 So betterlockscreen was my attempt to solve this problem, as we dont need to change lockscreen background frequently
 this script caches images with effect so overall experience is simple and as fast as native i3lock.
 
+### About this Fork
+* the ring indicator to the right of the screen
+* gets rid of the faded text box 
+* replace the custom text with the system date. 
+
+<p style="text-align: center">Fork Preview</p>
+<p align="center">
+  <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/Screen6.png">
+</p>
+
 ### How it works
 
 The script takes image adds various effects and caches those images in special directory and then uses those
@@ -74,35 +84,6 @@ cp betterlockscreen ~/.local/bin/
 # (In your .bashrc, .zshrc etc)
 export PATH="${PATH}:${HOME}/.local/bin/"
 ```
-
-### Package Manager
-
-#### Arch Linux
-
-###### Installing dependencies(not required if using betterlockscreen aur package)
-
-`pacman -S imagemagick feh xorg-xrandr xorg-xdpyinfo`
-
-- i3lock-color - `trizen -S i3lock-color`
-
-#### Aur package
-
-`betterlockscreen` is available in the Arch User repos as `betterlockscreen` and `betterlockscreen-git`.
-
-- betterlockscreen - `trizen -S betterlockscreen`
-- betterlockscreen-git - `trizen -S betterlockscreen-git`
-
-#### Debian and derivatives
-
-UtkarshVerma was so kind to provide an installation script for debian based systems, ![check it out here](https://github.com/UtkarshVerma/installer-scripts).
-
-#### Void Linux
-
-##### xbps repository
-
-`betterlockscreen` is available in official Void's repository as `betterlockscreen`.
-
-Installing using `xbps` (will automatically install all required dependencies): `xbps-install -S betterlockscreen`
 
 ### Configuration
 
