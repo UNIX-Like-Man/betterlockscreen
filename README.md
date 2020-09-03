@@ -42,7 +42,7 @@ this script caches images with effect so overall experience is simple and as fas
 * gets rid of the faded text box 
 * replace the custom text with the system date. 
 
-<p style="text-align: center">Fork Preview</p>
+<p align="center">Fork Preview</p>
 
 <p align="center">
   <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/Screen6.png">
