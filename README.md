@@ -43,6 +43,7 @@ this script caches images with effect so overall experience is simple and as fas
 * replace the custom text with the system date. 
 
 <p style="text-align: center">Fork Preview</p>
+
 <p align="center">
   <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/Screen6.png">
 </p>
