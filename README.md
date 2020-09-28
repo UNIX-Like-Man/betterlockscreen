@@ -12,7 +12,11 @@ Betterlockscreen allows you to cache images with different filters and lockscree
 betterlockscreen --lock blur
 ```
 
-![scrot2](https://github.com/pavanjadhaw/betterlockscreen.demo/raw/master/scrots/scrot2.png 'scrot2.png')
+<p align="center">Fork Preview</p>
+
+<p align="center">
+  <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/Screen6.png">
+</p>
 
 > [Watch some of the features of betterlockscreen in action](https://www.youtube.com/watch?v=9Ng5FZwnn6M&feature=youtu.be)
 
@@ -42,12 +46,6 @@ this script caches images with effect so overall experience is simple and as fas
 * gets rid of the faded text box 
 * replace the custom text with the system date. 
 
-<p align="center">Fork Preview</p>
-
-<p align="center">
-  <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/Screen6.png">
-</p>
-
 ### How it works
 
 The script takes image adds various effects and caches those images in special directory and then uses those
@@ -63,27 +61,10 @@ images as lockscreen background depending on argument provided by user.
 
 ### Installation
 
-> manual installation
-
 ```sh
-git clone https://github.com/pavanjadhaw/betterlockscreen
+git clone https://github.com/unixado/betterlockscreen
 cd betterlockscreen
 cp betterlockscreen ~/.local/bin/
-```
-
-<p style="text-align: center">OR</p>
-
-```sh
-# or wget the script ~12KB
-wget -O betterlockscreen https://git.io/fASUJ
-chmod u+x betterlockscreen
-cp betterlockscreen ~/.local/bin/
-```
-
-```sh
-# Add betterlockscreen to PATH:
-# (In your .bashrc, .zshrc etc)
-export PATH="${PATH}:${HOME}/.local/bin/"
 ```
 
 ### Configuration
