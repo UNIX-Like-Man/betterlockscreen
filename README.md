@@ -15,7 +15,7 @@ betterlockscreen --lock blur
 <p align="center">Fork Preview</p>
 
 <p align="center">
-  <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/Screen6.png">
+  <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen5.png">
 </p>
 
 > [Watch some of the features of betterlockscreen in action](https://www.youtube.com/watch?v=9Ng5FZwnn6M&feature=youtu.be)
