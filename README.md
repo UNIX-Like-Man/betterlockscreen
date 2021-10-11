@@ -15,7 +15,7 @@ betterlockscreen --lock blur
 <p align="center">Fork Preview</p>
 
 <p align="center">
-  <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen5.png">
+  <img src="https://github.com/yazdanz/dotfiles/blob/camus/.preview/Screen5.png">
 </p>
 
 > [Watch some of the features of betterlockscreen in action](https://www.youtube.com/watch?v=9Ng5FZwnn6M&feature=youtu.be)
@@ -62,7 +62,7 @@ images as lockscreen background depending on argument provided by user.
 ### Installation
 
 ```sh
-git clone https://github.com/unixado/betterlockscreen
+git clone https://github.com/yazdanz/betterlockscreen
 cd betterlockscreen
 cp betterlockscreen ~/.local/bin/
 ```
